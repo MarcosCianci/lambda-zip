@@ -8,24 +8,21 @@ The next step on this project is to extract the data from the files and put them
 
 Thank's!
 
-
 ===========================
-Passo a passo:
+Steps
 
-1) Baixar arquivos
-2) Criar função Lambda
-3) Definir o evento da função
-	- Dar as permisões na role
-4) Testar
+1) Download files
+2) Create Lambda function
+3) Define event trigger
+	- Permission's
+4) Test
 
+Advantages
 
-Vantagens
-
-- Paralelismo
-- Não usar servidor, portanto  a chance de dar problemas reduz drasticamente
-- Baixíssimo custo
-- Alta segurança
-- Orientada a eventos
-- FTP nunca mais!
-
+- Paralelism - Each file have their own Lambda container
+- No server at all, zero problems to maintain or to keep HA
+- Very low cost
+- High security 
+- Event driven
+- FTP no more
 
